@@ -15,6 +15,9 @@ def chrome_driver():
     driver.quit()
 
 
+print("Chrome driver fixture loaded")
+
+
 @pytest.fixture
 def edge_driver():
     options = EdgeOptions()

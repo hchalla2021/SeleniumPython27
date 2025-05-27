@@ -15,7 +15,7 @@ def chrome_driver():
     driver.quit()
 
 
-print("Chrome driver fixture loaded")
+print("Chrome driver fixture loaded123")
 
 
 @pytest.fixture
